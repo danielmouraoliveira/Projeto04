@@ -1,0 +1,450 @@
+body{
+    width: 1920px;
+    margin: auto;
+    margin-top: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+.setorUm{
+    margin-top: 0;
+    margin: auto;
+    background-color: #FDF8EE;
+    width: 1920px;
+    height: 1078px;
+}
+
+header{
+    padding-top: 54px;
+    display: flex;
+    justify-content: space-between;
+    width: 1920px;
+}
+
+header img{
+    padding-left: 196px;
+    width: 185px;
+    height: 51px;
+}
+
+ul li, button {
+    display: inline-block;
+    margin-left: 45px;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+
+header button{
+    margin-right: 195px;
+    background-color: #4D2C5E;
+    color: white;
+    border-radius: 96px;
+    width: 191px;
+    height: 65px;
+    font-size: 25px;
+    font-weight: 500;
+}
+
+.caixaSetorUm{
+    width: 1784px;
+    height: 756px;
+    margin: auto;
+    margin-top: 68px;
+}
+
+.img1{
+    position: absolute;
+    margin-top: 239px;
+    margin-left: 143px;
+}
+
+.img1-1{
+    position: absolute;
+    margin-top: 286px;
+    margin-left: 186px;
+}
+
+.img2{
+    position: absolute;
+    margin-top: 196px;
+    margin-left: 692px;
+}
+
+.img3{
+    position: absolute;
+    margin-top: 245px;
+    margin-left: 1061px;
+}
+
+.img4{
+    position: absolute;
+    margin-top: 174px;
+    margin-left: 1330px;
+}
+
+.img5{
+    position: absolute;
+    margin-top: 195px;
+    margin-left: 1770px;
+}
+
+.img6{
+    position: absolute;
+    margin-top: 786px;
+    margin-left: 83px;
+}
+
+.img7{
+    position: absolute;
+    margin-top: 782px;
+    margin-left: 454px;
+}
+
+.img8{
+    position: absolute;
+    margin-top: 855px;
+    margin-left: 1222px;
+}
+
+.img9{
+    position: absolute;
+    margin-top: 720px;
+    margin-left: 1745px;
+}
+
+.img10{
+    position: absolute;
+    margin-top: 547px;
+    margin-left: 1791px;
+}
+
+.elipse{
+    position: absolute;
+    margin-top: 242px;
+    margin-left: 1355px;
+}
+
+.secaoCaixaSetorUm{
+    margin-left: 110px;
+    margin-top: 175px;
+    width: 586px;
+}
+
+.textosCaixaSetorUm{
+    display: flex;
+    justify-content: space-between;
+}
+
+h1{
+    margin-top: 0;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bolder;
+    font-size: 69px;
+    line-height: 135%;
+    margin-bottom: 9px;
+}
+
+span{
+    color: #FF7426;
+}
+
+p{
+    margin-top: 0;
+    color: #8a8a8a;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 171%;
+}
+
+.procurar{
+    justify-content: space-between;
+    border: 0;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    width: 568px;
+    height: 79px;
+    background-color: white;
+    border-radius: 96px;
+}
+
+.inputProcurar{
+    margin-top: 3px;
+    margin-left: 9px;
+    width: 400px;
+    position: relative;
+    border-radius: 96px;
+    height: 69px;
+    border: none;
+}
+
+.procurar p{
+    text-align: start;
+    position: absolute;
+    margin-top: 3px;
+    margin-left: 30px;
+    margin-top: 22px;
+    width: 400px;
+}
+
+.procurar button{
+    width: 158px;
+    height: 69px;
+    margin-right: 9px;
+    margin-left: 0;
+    border-radius: 96px;
+    z-index: 1;
+    padding: 0;
+    margin-top: 5px;
+    border: none;
+    background-color: #4D2C5E;
+    color: white;
+    font-size: 25px;
+    font-weight: 500;
+}
+
+.imgCaixaSetorUm img{
+    margin-top: 110px;
+    margin-right: 147px;
+    z-index: 1;
+    margin-bottom: 60px;
+    position: relative;
+}
+
+.setorFlutuante{
+    border-radius: 14px;
+    margin-top: 60px;
+    margin: auto;
+    width: 1432px;
+    height: 277px;
+    background-color: #4D2C5E;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.box1{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-top: 0;
+    width: 419px;
+    height: 137px;
+}
+
+.box2{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-top: 0;
+    width: 419px;
+    height: 137px;
+}
+
+.box3{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-top: 0;
+    width: 419px;
+    height: 137px;
+}
+
+h2{
+    margin-top: 0;
+    margin-bottom: 0;
+    color: white
+}
+
+.imgBox1{
+    border-radius: 23px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 102px;
+    height: 102px;
+    background: rgba(255, 255, 255, 0.20);
+}
+
+.imgBox2{
+    border-radius: 23px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 102px;
+    height: 102px;
+    background: rgba(255, 255, 255, 0.20);
+}
+
+.imgBox3{
+    border-radius: 23px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 102px;
+    height: 102px;
+    background: rgba(255, 255, 255, 0.20);
+}
+
+.box1 .textbox1 p{
+    margin-bottom: 0;
+    line-height: 28px;
+    font-size: 15px;
+    color: white;
+    opacity: 60%;
+}
+
+.box2 .textbox2 p{
+    margin-bottom: 0;
+    line-height: 28px;
+    font-size: 15px;
+    color: white;
+    opacity: 60%;
+}
+
+.box3 .textbox3 p{
+    margin-bottom: 0;
+    line-height: 28px;
+    font-size: 15px;
+    color: white;
+    opacity: 60%;
+}
+
+.setorDois{
+    margin: auto;
+    width: 1920px;
+    height: 985px;
+    margin-right: 0;
+    padding-top: 102px;
+}
+
+.topoSetorDois{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 81px;
+    margin-right: 81px;
+    margin-top: 194px;
+}
+
+.textTopoSetorDois{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.textTopoSetorDois h3{
+    margin: 0;
+    font-size: 50px;
+    font-weight: 500;
+    line-height: 140%;
+}
+
+.mulheres{
+    margin-top: 0;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    width: 1530px;
+    height: 489px;
+}
+
+.mulheres .caixa{
+    width: 490px;
+    height: 457px;
+    border-radius: 14px;
+    padding-top: 10px;
+    box-shadow: 0px 4px 25px 0px rgba(0, 0, 0, 0.50);
+}
+
+.mulheres .caixa .space{
+    display: flex;
+    justify-content: space-between;
+}
+
+.mulheres .caixa img{
+    margin-top: 10px;
+    display: flex;
+    margin: auto;
+    width: 464px;
+    height: 238px;
+    border-radius: 14px;
+}
+
+.mulheres .caixa p{
+    margin-top: 14px;
+    margin-left: 13px;
+    margin-bottom: 3px;
+    font-size: 16px;
+}
+
+.mulheres .caixa h4{
+    margin-top: 0;
+    margin-left: 13px;
+    margin-bottom: 3px;
+    font-size: 20px;
+}
+
+.mulheres .caixa span{
+    margin: 0 13px 0 ;
+    font-size: 20px;
+}
+
+.mulheres .caixa .star{
+    margin-top: 22px;
+    width: 88px;
+    height: 16px;
+    margin-right: 13px;
+    border-radius: 0;
+}
+
+.line{
+    width: 464px;
+    height: 0;
+    margin: auto;
+    border: 1px dashed #ACACAC ;
+    margin-top: 9px;
+}
+
+.mulheres .caixa .posLine{
+    display: flex;
+    margin-left: 13px;
+    margin-top: 21px;
+}
+
+.mulheres .caixa .posLine div{
+    display: flex;
+    align-items: center;
+}
+
+.mulheres .caixa .posLine img{
+    width: 19px;
+    height: 19px;
+    align-items: center;
+}
+
+.mulheres .caixa .posLine p{
+    margin-top: 0;
+    margin-left: 6px;
+    margin-right: 14px;
+}
+
+.mulheres .caixa .button button{
+    background-color: #FF7426;
+    color: white;
+    width: 207px;
+    height: 55px;
+    border-radius: 96px;
+    border: none;
+    font-size: 25px;
+    font-weight: 500;
+    margin: auto;
+    display: flex;
+    margin-top: 30px;
+    align-items: center;
+    justify-content: center;
+}
