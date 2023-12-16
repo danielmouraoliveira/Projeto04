@@ -38,11 +38,24 @@ header img{
     height: 51px;
 }
 
+ul li a:hover{
+    color: #4D2C5E;
+    font-weight: bolder;
+}
+
 ul li, button {
     display: inline-block;
     margin-left: 45px;
     font-size: 18px;
     font-weight: 500;
+}
+
+button:hover{
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.50);
+}
+
+button:active{
+    transform: scale(1.1);
 }
 
 a{
@@ -187,7 +200,7 @@ p{
 
 .inputProcurar{
     margin-top: 3px;
-    margin-left: 9px;
+    margin-left: 40px;
     width: 400px;
     position: relative;
     border-radius: 96px;
@@ -378,7 +391,7 @@ h2{
     justify-content: space-between;
 }
 
-.mulheres .caixa img{
+.mulheres .caixa .fotoRetangulo{
     margin-top: 10px;
     display: flex;
     margin: auto;
@@ -595,13 +608,6 @@ h2{
     height: 284px;
 }
 
-footer{
-    margin-top: 3663px;
-    width: 1920px;
-    height: 411px;
-    border: 1px solid red;
-}
-
 .uniaoSetores{
     margin-bottom: 0;
 }
@@ -702,4 +708,209 @@ footer{
 
 .divFoto{
     margin-right: 16px;
+}
+
+.carrossel{
+    display: flex;
+    justify-content: space-around;
+}
+
+.segundoTitulo{
+    margin-top: 58px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.segundoTitulo h2{
+    font-size: 50px;
+}
+
+.segundoTitulo p{
+    font-size: 20px;
+    margin-bottom: 65px;
+}
+
+.nome{
+    font-size: 20px;
+    padding-top: 15px;
+    margin-bottom: 0;
+}
+
+h6{
+    margin-top: 0;
+    font-size: 16px;
+    color: #868686;
+    margin-left: 13px;
+    margin-bottom: 15px;
+}
+
+.descricao{
+    font-size: 18px;
+    color: #ACACAC;
+    margin-bottom: 22px;
+}
+
+.rodapeBox{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 13px;
+    margin-top: 22px;
+    height: 38px;
+    width: 464px;
+}
+
+.spanHomens{
+    font-size: 18px;
+    color: #FF7426;
+}
+
+.sociais{
+    display: flex;
+    justify-content: space-between;
+    width: 88px;
+    height: 38px;
+}
+
+.boxSociais{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 38px;
+    height: 38px;
+    background-color:#F9F9F9;
+}
+
+.sociais .sociaisImg{
+    display: flex;
+    width: 22px;
+    height: 22px;
+}
+
+.retangulo{
+    margin: auto;
+    margin-top: 159px;
+    width: 1432px;
+    height: 429px;
+    background-color: #4D2C5E;
+    border-radius: 14px;
+}
+
+.elipseBranca1{
+    position: absolute;
+    margin-left: 25px;
+}
+
+.elipseBranca2{
+    position: absolute;
+    margin-top: 0;
+}
+
+.elipseBranca3{
+    position: absolute;
+    margin-left: 1230px;
+}
+
+.elipseBranca4{
+    position: absolute;
+    margin-left: 1270px;
+}
+
+.flechaLaranja{
+    position: absolute;
+    margin-top: 215px;
+    margin-left: 100px;
+}
+
+.lampada2{
+    position: absolute;
+    margin-top: 252px;
+    margin-left: 1134px;
+}
+
+.centralizarProcurar{
+    display: flex;
+    justify-content: center;
+}
+
+.textRetangulo{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 94px;
+}
+
+.tituloRetangulo{
+    font-size: 40px;
+    color: white;
+}
+
+.pRetangulo{
+    font-size: 20px;
+    margin-bottom: 41px;
+    color: white;
+}
+
+.centralizarProcurar .botaoSend{
+    background-color: #FF7426;
+    width: 197px;
+}
+
+footer{
+    margin-top: 80px;
+    width: 1920px;
+    height: 411px;
+    background-color: #FDF8EE;
+}
+
+.corpoDivs{
+    display: flex;
+    justify-content: space-around;
+    margin-left: 196px;
+    margin-right: 196px;
+    padding-top: 31px;
+}
+
+.lineFooter{
+    margin-top: 30px;
+    background-color: #B7B7B7;
+    width: 1920px;
+    height: 1px;
+}
+
+.corpoDivs img{
+    margin-bottom: 29px;
+    padding-top: 30px;
+}
+
+.corpoDivs h4{
+    margin-bottom: 29px;
+    color: black;
+    font-weight: bolder;
+    font-size: 25px;
+}
+
+
+.pFooter{
+    display: flex;
+    justify-content: center;
+    margin-top: 5px;
+    font-size: 19px;
+}
+
+::placeholder{
+    font-size: 20px;
+    color: #ACACAC;
+}
+
+textarea:focus, input:focus, select:focus {
+    box-shadow: 0 0 0 0;
+    border: 0 none;
+    outline: 0;
+}
+
+input{
+    font-size:20px;
+    color: #ACACAC;
 }
