@@ -73,6 +73,7 @@ header button{
     height: 65px;
     font-size: 25px;
     font-weight: 500;
+    border: none;
 }
 
 .caixaSetorUm{
