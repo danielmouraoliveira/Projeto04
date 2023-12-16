@@ -5,6 +5,18 @@ body{
     font-family: 'Roboto', sans-serif;
 }
 
+html ::-webkit-scrollbar {
+    width: 0;
+    height: 0;
+  }
+  html ::-webkit-scrollbar-thumb {
+    border-radius: 50px;
+    background: #6e6ea9;
+  }
+  html ::-webkit-scrollbar-track {
+    background: #ededed;
+  }
+
 .setorUm{
     margin-top: 0;
     margin: auto;
@@ -447,4 +459,247 @@ h2{
     margin-top: 30px;
     align-items: center;
     justify-content: center;
+}
+
+.uniaoSetores{
+    width: 1920px;
+    height: 2660px;
+}
+
+.setorTres{
+    width: 1920px;
+    height: 636px;
+    background-color: #FDF8EE;
+    margin-right: 0;
+}
+
+.uniaoSetores .imgMulher{
+    margin-top: 63px;
+    margin-left: 224px;
+    position: absolute;
+}
+
+.textSetorTres{
+    padding-top: 79px;
+    margin-left: 887px;
+}
+
+.box{
+    height: 101px;
+    display: flex;
+}
+
+.caixaImagem{
+    width: 102px;
+    height: 102px;
+}
+
+.caixaImagem{
+    background-color: #4D2C5E;
+    border-radius: 23px;
+    display: flex;
+    align-items: center;
+    justify-content: center;   
+}
+
+.uniaoSetores .setorTres .textSetorTres .box{
+    margin-bottom: 34px;
+}
+
+.uniaoSetores .setorTres .textSetorTres .box .text{
+    padding-left: 48px;
+    margin-top: 0;
+    margin-bottom: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.uniaoSetores .setorTres .textSetorTres .box .text h4{
+    font-size: 30px;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.uniaoSetores .setorTres .textSetorTres .box .text p{
+    font-size: 26px;
+    margin-bottom: 0;
+}
+
+.segImg1{
+    position: absolute;
+    margin-top: 237px;
+    margin-left: 115px;
+}
+
+.segImg2{
+    position: absolute;
+    margin-top: 65px;
+    margin-left: 261px;
+}
+
+.segImg3{
+    position: absolute;
+    margin-top: 83px;
+    margin-left: 687px;
+}
+
+.segImg4{
+    position: absolute;
+    margin-top: 538px;
+    margin-left: 694px;
+}
+
+.segImg5{
+    position: absolute;
+    margin-top: 470px;
+    margin-left: 127px;
+}
+
+.segImg6{
+    position: absolute;
+    margin-top: 395px;
+    margin-left: 728px;
+}
+
+.elipse1{
+    position: absolute;
+    margin-top: 171px;
+    margin-left: 0px;
+    width: 960px;
+    height: 778px;
+}
+
+.elipse2{
+    position: absolute;
+    margin-right: 0;
+    margin-top: 368px;
+    margin-left: 950px;
+    width: 960px;
+    height: 778px;
+}
+
+.elipse3{
+    position: absolute;
+    margin-left: 195px;
+    margin-top: 1684px;
+    width: 350px;
+    height: 284px;
+}
+
+.elipse4{
+    position: absolute;
+    margin-left: 1449px;
+    margin-top: 1730px;
+    width: 350px;
+    height: 284px;
+}
+
+footer{
+    margin-top: 3663px;
+    width: 1920px;
+    height: 411px;
+    border: 1px solid red;
+}
+
+.uniaoSetores{
+    margin-bottom: 0;
+}
+
+.setorFinal h2{
+    color: black;
+    font-size: 40px;
+    font-weight: 700;
+    margin-bottom: 9px;
+}
+
+.setorFinal p{
+    color: #8A8A8A;
+    font-size: 20px;
+    font-weight: 500;
+    margin-bottom: 9px;
+}
+
+.setorFinal .textInicial{
+    color: black;
+    font-size: 40px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 130px;
+    align-items: center;
+    margin-bottom: 50px;
+}
+
+.boxCaixasTexto{
+    margin: auto;
+    width: 1300px;
+    height: 352px;
+    display: flex;
+}
+
+.boxCaixasTexto .divDiv{
+    background-color: #FFFFFF;
+    z-index: 1;
+    margin: auto;
+    margin-top: 0;
+    width: 417px;
+    height: 258px;
+    box-shadow: 0px 4px 88px 0px rgba(0, 0, 0, 0.05);
+}
+
+.elpises{
+    z-index: -1;
+}
+
+.boxCaixasTexto p{
+    margin-top: 47px;
+    margin-left: 47px;
+    font-size: 19px;
+    margin-top: 32px;
+}
+
+.boxCaixasTexto .foto{
+    margin-top: 24px;
+    width: 161px;
+    height: 47px;
+    margin-left: 47px;
+}
+
+.boxCaixasTexto .imgFoto{
+    width: 47px;
+    height: 47px;
+}
+
+.foto{
+    height: 47px;
+    display: flex;
+    width: 161px;
+    height: 47px;
+}
+
+
+.divText h2{
+    font-size: 17px;
+    width: 300px;
+    height: 27px;
+    margin: 0;
+    padding: 0;
+}
+
+.divText p{
+    font-size: 13px;
+    width: 300px;
+    height: 27px;
+    margin: 0;
+    padding: 0;
+}
+
+.divText .profissao{
+    font-size: 20px;
+}
+
+.divFoto{
+    margin-right: 16px;
 }
